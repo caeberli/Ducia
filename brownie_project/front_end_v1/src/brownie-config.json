@@ -1,0 +1,1 @@
+{"dependencies": ["OpenZeppelin/openzeppelin-contracts@4.5.0"], "compiler": {"solc": {"remappings": ["@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.5.0"]}}, "dotenv": ".env", "wallets": {"from_key": "${PRIVATE_KEY}"}, "networks": {"rinkeby": {"verify": true}, "development": {"verify": false}, "Ganache_Local_Ducia_v1": {"verify": false}}}
