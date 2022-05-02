@@ -13,6 +13,8 @@ contract Ducia_v1 is Ownable {
     mapping(uint256 => bool) public content_exists;
     mapping(uint256 => validation_tracker) public vote_tracker;
 
+    uint256 dummy;
+
     uint256[] public content;
     address[] public validators;
 
